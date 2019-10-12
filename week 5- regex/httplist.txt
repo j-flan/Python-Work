@@ -1,0 +1,19 @@
+this is a list of http addresses
+http://emmaonesock.com
+http://cuttinglinedesigns.com/
+http://thisOneisNotValid\ 
+http://emmaonesock/
+https://docs.python.org/3/library/turtle.html
+http://docs.python.org/3/library/turtle.html
+http://emmaonesock.com/   http://cuttinglinedesigns.com/
+http://www.thesaurus.com/
+https://www.ifit.com/
+https://bannercas.cccs.edu/cas/login?vpdi=frcconline&service=https%3a%2f%2ffrcc.desire2learn.com%2fd2l%2fcustom%2fcas%3ftarget%3d%252fd2l%252fhome
+https://marcytilton.com/collections/new-fabrics
+http://www.emmaonesock.com/index.asp
+https://www.amazon.com/ref=nav_logo
+http://www.baggallini.com/
+https://mail.google.com/mail/u/0/#inbox
+http://shop.nordstrom.com/
+http://www.jjill.com/jjillonline/index.aspx
+https://www.nordstromcard.com/login

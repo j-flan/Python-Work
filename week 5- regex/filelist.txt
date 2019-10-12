@@ -1,0 +1,6 @@
+romeo.txt
+romeo-full.txt mailbox.txt
+wordlist.txt trial.txt turtleTest.py mbox.txt mbox-short.txt
+https.txt empty-file.txt
+strange%name.cpp weird@name.txt another*try.txt
+help!me.txt so&so.ln what#else.anything justsomething
