@@ -6,6 +6,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 from IPython.display import IFrame
 
+#This code requests and receives GeoJSON data from the USGS Earthquakes Hazards Program website. T
+#he latitude, longitude, and magnitude are parsed from the object notation for each significant 
+#earthquake reported in the last 7 days.
+
 #data location
 serviceurl = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson'
 
@@ -63,6 +67,8 @@ else:
 if count > 0:
     print("Greatest magnitude: ",maxmag)
 
+#This shows the magnitude of each earthquake at its location from the previous data retreived. 
+#Chart is horizontal to show locations without overlap      
 y_pos = np.arange(len(locs)) #sort and get amount of bars
 plt.barh(y_pos, mags, align='center', alpha=0.5) #set scalar, max, align and step
 plt.yticks(y_pos, locs) #set y axis by location
@@ -71,6 +77,9 @@ plt.xlabel('Magnitude')
 plt.title('Magnitude of each significant earthquake in the last 7 days\n')
 plt.show()
 
+#This code embeds a google map using a google cloud API. The coordinates from the earthquake 
+#with the greatest magnitude are input into the HTTP format and uses the place marker to mark 
+#the location on the interactive map. The map is displayed using IFrame to a specific pixel size.
 print("lat: ",maxlat,", long: ",maxlong, ", magnitude: ",maxmag,"\n")
 api = "ENTER KEY HERE" #key for embeded usage
 url = "https://www.google.com/maps/embed/v1/place?key="+api+"&q="+maxlat+","+maxlong+"&zoom=12&maptype=satellite"
