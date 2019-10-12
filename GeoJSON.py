@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 from IPython.display import IFrame
 
-#This code requests and receives GeoJSON data from the USGS Earthquakes Hazards Program website. T
-#he latitude, longitude, and magnitude are parsed from the object notation for each significant 
+#This code requests and receives GeoJSON data from the USGS Earthquakes Hazards Program website.
+#The latitude, longitude, and magnitude are parsed from the object notation for each significant 
 #earthquake reported in the last 7 days.
 
 #data location
@@ -30,7 +30,6 @@ if count < 1:
     print("there have been no Significant Earthquakes reported within the last 7 days")
 else:
     print("\n",count," Significant Earthquakes in the last 7 days:\n")
-    earthquakes = [] #list of 'quakes
     maxmag = 0
     maxlat = 0
     maxlong = 0
